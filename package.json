@@ -4,8 +4,7 @@
   "description": "Web App for Manga H downloader",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "build": "pkg . -t node14 --out-path ./build"
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.16.4",
