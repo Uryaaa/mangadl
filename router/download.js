@@ -156,7 +156,7 @@ router.get("/komiku/:code/pdf", async function (req, res) {
 async function getGallery(code, site) {
   let url;
   if (site == "nhentai") {
-    url = `https://nhentai.net/api/gallery/${code}`;
+    url = `http://138.2.77.198:3002/api/gallery/${code}`;
   } else if (site == "komiku") {
     url = `https://manga-apiw.herokuapp.com/api/chapter/${code}`;
   }
